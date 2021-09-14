@@ -10,13 +10,12 @@ public class NumberGuess
     Random r = new Random();
 
     int choice;
-    int x = 1 + r.nextInt(10);
+    int x = r.nextInt(10);
 
     System.out.println("I'm thinking of a number from 1 to 10.");
     System.out.print("Your guess: ");
     choice = keyboard.nextInt();
 
-    System.out.print(1 + r.nextInt(10));
     System.out.println();
     if (choice == x)
     {
