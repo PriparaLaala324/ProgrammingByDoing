@@ -53,7 +53,7 @@ public class BlackJack
             ptotal += ncard;
             System.out.println("Sharon: Your total is " + ptotal + ".");
           }
-        } while (ptotal <= 21 && (!choice.equals("stay")));
+        } while (ptotal <= 21 && (!dchoice.equals("stay")));
 
           if (ptotal <= 21)
           {
@@ -79,7 +79,7 @@ public class BlackJack
                 System.out.println("Sharon: Wow~ It's a big number~");
                 System.out.println("Sharon: I will choose stay~");
               }
-            } while (dtotal <= 21 && (!choice.equals("stay")));
+            } while (dtotal <= 21 && (!dchoice.equals("stay")));
           }
 
           System.out.println("Sharon: My total is " + dtotal + ".");
@@ -91,7 +91,8 @@ public class BlackJack
             {
               if (ptotal > dtotal)
               {
-                System.out.println("Sharon: HUMPH!!! YOU WIN!");              System.out.println("Sharon: I will get you next time!");
+                System.out.println("Sharon: HUMPH!!! YOU WIN!");
+                System.out.println("Sharon: I will get you next time!");
                 point++;
               }
               else if (ptotal == dtotal)
