@@ -9,4 +9,5 @@ int main()
     cout << "Yay! Printing.";
     cout << "I'd much rather you 'not'.";
     cout << "I \"said\" do not touch this.";
+    return 0;
 }
