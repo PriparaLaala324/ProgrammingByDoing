@@ -5,7 +5,7 @@ int main()
     float bmi, w, h;
     cout<<"Please enter your weight in kg: \n";
         cin>>w;
-    cout<<"Please enter your height in cm: \n";
+    cout<<"Please enter your height in m: \n";
         cin>>h;
     bmi=(w)/(h*h);
     cout<<"Your BMI is: \n"<<bmi<<endl;
