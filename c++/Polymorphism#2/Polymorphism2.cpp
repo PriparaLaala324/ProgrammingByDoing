@@ -18,7 +18,7 @@ public:
         Type="rectangle";
     }
     Quadrilateral(int b1, int b2, int h){
-        cout<<b1*b2*h<<endl;
+        cout<<((b1+b2)*h)/2<<endl;
         Type="trapezoid";
     }
     double getArea(){
